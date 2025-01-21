@@ -10,14 +10,14 @@
 </head>
 <body>
     <header>
-        <div class="banner"> </div>
-
-        <nav>
-            <ul class="navigation">
-            <li><a href="/">Home</a></li>
-            <li><a href="/projects">Projects</a></li>
-            </ul>
-        </nav>
+        <div class="banner"> 
+            <nav class="nav-bar">
+                <ul class="navigation">
+                    <li ><a class="nav-tag" href="/">Home</a></li>
+                    <li ><a class="nav-tag" href="/projects">Projects</a></li>
+                </ul>
+            </nav>
+        </div>
 
         <img src="./resources/face-picture.jpg" alt="face picture" class="face-picture">
         <h1 class = "name">Ruichao Tang</h1>
@@ -37,34 +37,39 @@
 
 
     <main>
-        <section class="about">
+        <section class="info-block about">
             <h2>About Me</h2>
             <p>Hi, I am Ruichao Tang. I am a student at the University of Washington. I am studying Informatics and I am interested in web development. I am currently learning HTML, CSS, and JavaScript. I am also learning how to use Git and GitHub. I am excited to learn more about web development and I am looking forward to building my own website.</p>
         </section>
 
-        <section class="projects">
-            <h2>Projects</h2>
-            <div class="project">
-                <img src="./img/project1.jpg" alt="project1">
-                <h3>Project 1</h3>
-                <p>This is a project that I did for my Informatics class. I used HTML, CSS, and JavaScript to build this website. I learned how to use Git and GitHub to manage my project. I also learned how to use Visual Studio Code to write code.</p>
-            </div>
-            <div class="project">
-                <img src="./img/project2.jpg" alt="project2">
-                <h3>Project 2</h3>
-                <p>This is a project that I did for my Informatics class. I used HTML, CSS, and JavaScript to build this website. I learned how to use Git and GitHub to manage my project. I also learned how to use Visual Studio Code to write code.</p>
-            </div>
+        <section class="info-block education&work">
+            <h2>Education and Work</h2>
+            <p>Education</p>
         </section>
 
-        <section class="contact">
-            <h2>Contact</h2>
-            <p>Email:</p>
+        <section class="info-block projects">
+            <h2>Projects</h2>
+            <a href="/projects">
+                <div class="project-card">
+
+                    <img src="./img/project1.jpg" alt="project1">
+                    <h3>Project 1</h3>
+                    <p>This is a project that I did for my Informatics class. I used HTML, CSS, and JavaScript to build this website. I learned how to use Git and GitHub to manage my project. I also learned how to use Visual Studio Code to write code.</p>
+                </div>
+            </a>
+            <a href="/projects">
+                <div class="project-card">
+                    <img src="./img/project2.jpg" alt="project2">
+                    <h3>Project 2</h3>
+                    <p>This is a project that I did for my Informatics class. I used HTML, CSS, and JavaScript to build this website. I learned how to use Git and GitHub to manage my project. I also learned how to use Visual Studio Code to write code.</p>
+                </div>
+            </a>
         </section>
+
     </main>
 
     <footer>
         <p>&copy;Made by Ruichao Tang 2025</p>
-        <p>Email: tangrich@outlook.com</p>
     </footer>
 </body>
 </html>
