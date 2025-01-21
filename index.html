@@ -4,27 +4,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style/style.css">
-    <title>Document</title>
+    <title>Ruichao Tang's Home Page</title>
+    <meta name="author" content="Ruichao Tang">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 </head>
 <body>
     <header>
-        <img src="./img/logo.png" alt="banner" class="banner">
-        <img src="./img/banner.jpg" alt="face picture" class="face picture">
-        <h1 class = "name">Ruichao Tang</h1>
+        <div class="banner"> </div>
+
         <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
+            <ul class="navigation">
+            <li><a href="/">Home</a></li>
+            <li><a href="/projects">Projects</a></li>
             </ul>
         </nav>
 
-        <div class="social media">
-            <a href="https://www.linkedin.com/in/ruichaotang"><img src="./img/linkedin.png" alt="linkedin"></a>
-            <a href="https://github.com/ruichaotang"><img src="./img/github.png" alt="github"></a>
-            <a href="https://www.instagram.com/ruichaotang"><img src="./img/instagram.png" alt="instagram"></a>
+        <img src="./resources/face-picture.jpg" alt="face picture" class="face-picture">
+        <h1 class = "name">Ruichao Tang</h1>
+
+        <div class="contact">
+            <div class="email">
+                <p><span class="bold-text">Email:</span>tangrich@outlook.com</p>
+            </div>
+            <div class="social media">
+                
+                <a href="https://www.linkedin.com/in/ruichaotang"><i class="fab fa-linkedin" alt="linkedin-icon"> </i></a>
+                <a href="https://github.com/ruichaotang"><i class="fab fa-github" alt="github-icon"> </i></a>
+                <a href="https://www.instagram.com/ruichaotang"><i class="fab fa-instagram" alt="instagram-icon"> </i></a>
+            </div>
         </div>
-
-
     </header>
+
+
+    <main>
+        <section class="about">
+            <h2>About Me</h2>
+            <p>Hi, I am Ruichao Tang. I am a student at the University of Washington. I am studying Informatics and I am interested in web development. I am currently learning HTML, CSS, and JavaScript. I am also learning how to use Git and GitHub. I am excited to learn more about web development and I am looking forward to building my own website.</p>
+        </section>
+
+        <section class="projects">
+            <h2>Projects</h2>
+            <div class="project">
+                <img src="./img/project1.jpg" alt="project1">
+                <h3>Project 1</h3>
+                <p>This is a project that I did for my Informatics class. I used HTML, CSS, and JavaScript to build this website. I learned how to use Git and GitHub to manage my project. I also learned how to use Visual Studio Code to write code.</p>
+            </div>
+            <div class="project">
+                <img src="./img/project2.jpg" alt="project2">
+                <h3>Project 2</h3>
+                <p>This is a project that I did for my Informatics class. I used HTML, CSS, and JavaScript to build this website. I learned how to use Git and GitHub to manage my project. I also learned how to use Visual Studio Code to write code.</p>
+            </div>
+        </section>
+
+        <section class="contact">
+            <h2>Contact</h2>
+            <p>Email:</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy;Made by Ruichao Tang 2025</p>
+        <p>Email: tangrich@outlook.com</p>
+    </footer>
 </body>
 </html>
