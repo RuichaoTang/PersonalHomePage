@@ -20,8 +20,8 @@
           <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
     
             <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-              <li><a href="./" class="nav-link px-2 text-secondary">Home</a></li>
-              <li><a href="./projects" class="nav-link px-2 text-white">Project Details</a></li>
+              <li><a href="./" class="nav-link px-2 text-white">Home</a></li>
+              <li><a href="./projects" class="nav-link px-2 text-secondary">Project Details</a></li>
             </ul>
           </div>
 
@@ -46,17 +46,40 @@
             </div>
             
             <div class="social-media col-sm-6 text-center text-sm-end align-self-end">
-                <a href="https://www.linkedin.com/in/ruichaotang"><i class="fab fa-linkedin" alt="linkedin-icon"> </i></a>
-                <a href="https://github.com/ruichaotang"><i class="fab fa-github" alt="github-icon"> </i></a>
-                <a href="https://www.instagram.com/ruichaotang"><i class="fab fa-instagram" alt="instagram-icon"> </i></a>
+                <a href="https://www.linkedin.com/in/ruichaotang"><i class="fab fa-linkedin" title ="linkedin-icon"> </i></a>
+                <a href="https://github.com/ruichaotang"><i class="fab fa-github" title ="github-icon"> </i></a>
+                <a href="https://www.instagram.com/ruichaotang"><i class="fab fa-instagram" title ="instagram-icon"> </i></a>
             </div>
         </div>
 
 
         
         
-        <main>
+        <main class="container">
             
+            <div class="section">
+                <h2 class="text-sm-start text-center">MERN-Stack Web Application</h2>
+                <div class="row"> 
+
+                    <img src="./resources/project1.png" alt="projetc1 screenshot">
+                </div>
+                <div class="entry mt-3">
+                    <h3><a href="https://github.com/RuichaoTang/MERN-realEstate" target="_blank">Github Repository: MERN Real Estate</a></h3>
+                    <p class="details">Developed and deployed a responsive real estate platform using the MERN stack (MongoDB, Express.js, React, Node.js), hosted on Render.</p>
+                    <ul>
+                        <li>Enhanced security with advanced authentication systems, leveraging JWT, Firebase, and Google OAuth for user access.</li>
+                        <li>Created real-world CRUD functionality for listings and user profiles, including advanced search filters for listing results.</li>
+                        <li>Designed and built a responsive UI with tailored animations, optimized for both desktop and mobile devices.</li>
+                        <li>Integrated real-time updates for listing edits and managing favorites, ensuring immediate synchronization between UI and backend changes.</li>
+                    </ul>
+                </div>
+                <div class="row align-self-end text-end">
+                    <div>
+                        <button onclick="window.open('./')" class="btn btn-outline-secondary text-end" >Back To Home</button>
+                    </div>   
+                </div>
+            </div>
+
             
         </main>
         
@@ -67,12 +90,5 @@
         </footer>
     </div>
 
-    <script>
-        
-        // eslint-disable-next-line no-unused-vars
-        function openNewPage() {window.open("https://mern-realestate-rpou.onrender.com", "_blank");}
-        // eslint-disable-next-line no-unused-vars
-        function openNewPageMusic() {window.open("https://open.spotify.com/track/26wjQnQgd6aPAglmStjJdD?si=858804ffd3cf4cde", "_blank");}
-    </script>
     </body>
 </html>

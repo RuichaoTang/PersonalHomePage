@@ -46,9 +46,9 @@
             </div>
             
             <div class="social-media col-sm-6 text-center text-sm-end align-self-end">
-                <a href="https://www.linkedin.com/in/ruichaotang"><i class="fab fa-linkedin" alt="linkedin-icon"> </i></a>
-                <a href="https://github.com/ruichaotang"><i class="fab fa-github" alt="github-icon"> </i></a>
-                <a href="https://www.instagram.com/ruichaotang"><i class="fab fa-instagram" alt="instagram-icon"> </i></a>
+                <a href="https://www.linkedin.com/in/ruichaotang"><i class="fab fa-linkedin" title ="linkedin-icon"> </i></a>
+                <a href="https://github.com/ruichaotang"><i class="fab fa-github" title ="github-icon"> </i></a>
+                <a href="https://www.instagram.com/ruichaotang"><i class="fab fa-instagram" title ="instagram-icon"> </i></a>
             </div>
         </div>
 
@@ -96,21 +96,21 @@
 
 
             <section class="info-block projects">
-                <h2>Projects</h2>
-                    
-                    <div class=" album py-5 bg-body-tertiary">
-                        <div class="container">
+                
+                <div class="album pb-5">
+                        <h2>Portfolio</h2>
+                        <div class="container mt-3">
                             
                             <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
                                 <div class="col">
                                     <div class="card shadow-sm">
-                                        <img class="bd-placeholder-img card-img-top object-fit-cover" src="./resources/project1.png" alt="Project1 screenshot" width="100%" height="225">
+                                        <img class="bd-placeholder-img card-img-top object-fit-cover" src="./resources/project1.png" alt="Project1 screenshot"  height="225">
                                         <div class="card-body">
-                                            <p class="card-text"><span class="bold-text">Nestland:</span> A Full-Stack Real Estate Web Application (MERN Stack). </p>
+                                            <p class="card-text"><span class="bold-text">Nestland:</span> A real estate platform using the MERN stack (MongoDB, Express.js, React, Node.js).</p>
                                             <div class="d-flex justify-content-between align-items-center">
                                                 <div class="btn-group">
-                                                    <a href="./projects"><button type="button" class="btn btn-sm btn-outline-secondary" aria-label="details" >Details</button></a>
-                                                    <button onclick="openNewPage()" type="button" class="btn btn-sm btn-outline-secondary" aria-label="jupm to the webpage">View</button>
+                                                    <button type="button" class="btn btn-sm btn-outline-secondary" aria-label="details" onclick="window.location.href='./projects';">Details</button>
+                                                    <button type="button" class="btn btn-sm btn-outline-secondary" aria-label="jump to the webpage" onclick="window.open('https://mern-realestate-rpou.onrender.com', '_blank');">View</button>
                                                 </div>
                                                 <small class="text-body-secondary">2024-09</small>
                                             </div>
@@ -119,12 +119,12 @@
                                 </div>
                                 <div class="col">
                                     <div class="card shadow-sm">
-                                        <img class="bd-placeholder-img card-img-top object-fit-cover" src="./resources/ai-project.png" alt="album cover" width="100%" height="225">
+                                        <img class="bd-placeholder-img card-img-top object-fit-cover" src="./resources/ai-project.png" alt="album cover" height="225">
                                         <div class="card-body">
                                             <p class="card-text"><span class="bold-text">Facial Key Point Detection Model:</span> A residual neural network to detect facial key points.</p>
                                             <div class="d-flex justify-content-between align-items-center">
                                                 <div class="btn-group">
-                                                    <button onclick="openNewPageMusic()" type="button" class="btn btn-sm btn-outline-secondary" aria-label="go to the google colab page">View</button>
+                                                    <button type="button" class="btn btn-sm btn-outline-secondary" aria-label="go to the google colab page" onclick="window.open('https://colab.research.google.com/drive/1BkMP3M7CIYsS6cWHqnRDEhpjrADrQCNr?usp=sharing', '_blank')">View</button>
                                                 </div>
                                                 <small class="text-body-secondary">2025-01</small>
                                             </div>
@@ -133,12 +133,12 @@
                                 </div>
                                 <div class="col">
                                     <div class="card shadow-sm">
-                                        <img class="bd-placeholder-img card-img-top object-fit-cover" src="./resources/album-cover.png" alt="album cover" width="100%" height="225">
+                                        <img class="bd-placeholder-img card-img-top object-fit-cover" src="./resources/album-cover.png" alt="album cover" height="225">
                                         <div class="card-body">
                                             <p class="card-text"><span class="bold-text">不在意</span> is one of my globaly published songs. It is a coop with Ocean Butterflies Music Pte Ltd.</p>
                                             <div class="d-flex justify-content-between align-items-center">
                                                 <div class="btn-group">
-                                                    <button onclick="openNewPageMusic()" type="button" class="btn btn-sm btn-outline-secondary" aria-label="go to the spotify page">View</button>
+                                                    <button type="button" class="btn btn-sm btn-outline-secondary" aria-label="go to the spotify page" onclick="window.open('https://open.spotify.com/album/5vu7vSSEqhowSwxU8LeyFS?si=04mlaEkHQwOMA8h9BNn97A', '_blank')">View</button>
                                                 </div>
                                                 <small class="text-body-secondary">2019-01</small>
                                             </div>
@@ -162,13 +162,5 @@
             </div>
         </footer>
     </div>
-
-    <script>
-        
-        // eslint-disable-next-line no-unused-vars
-        function openNewPage() {window.open("https://mern-realestate-rpou.onrender.com", "_blank");}
-        // eslint-disable-next-line no-unused-vars
-        function openNewPageMusic() {window.open("https://open.spotify.com/track/26wjQnQgd6aPAglmStjJdD?si=858804ffd3cf4cde", "_blank");}
-    </script>
     </body>
 </html>
