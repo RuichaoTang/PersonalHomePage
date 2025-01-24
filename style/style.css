@@ -57,3 +57,9 @@ main{
 h2{
     font-size: 1.5em;
 }
+
+#webScreenShot:hover{
+    transform: scale(1.02);
+    transition-duration: 130ms;
+    cursor:pointer;
+  }
