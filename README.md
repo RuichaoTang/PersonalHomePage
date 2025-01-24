@@ -14,6 +14,8 @@ This project is a personal homepage for Ruichao Tang, showcasing his education, 
 
 The webpage is built using **HTML**, **CSS**, and **JavaScript**, with **Bootstrap** for responsive styling and **Font Awesome** for icons.
 
+![Project 1 Screenshot 1](https://github.com/RuichaoTang/PersonalHomePage/blob/408d01ed9e69e175d83bcbfac7afc2b92b95496c/Screenshots/screenshot1.png?raw=true)
+
 ---
 
 ## Features
@@ -37,8 +39,13 @@ The webpage is built using **HTML**, **CSS**, and **JavaScript**, with **Bootstr
 
 6. **Portfolio Section**
    - Cards displaying projects with images, descriptions, and interactive buttons for details and live demos.
+    ![Project 1 Screenshot 2](https://github.com/RuichaoTang/PersonalHomePage/blob/408d01ed9e69e175d83bcbfac7afc2b92b95496c/Screenshots/screenshot2.png?raw=true)
 
-7. **Footer**
+7. **Project Details Page**
+   - Individual page to show the details of a project.
+   ![Project 1 Screenshot 3](https://github.com/RuichaoTang/PersonalHomePage/blob/408d01ed9e69e175d83bcbfac7afc2b92b95496c/Screenshots/screenshot3.png?raw=true)
+
+9. **Footer**
    - Includes copyright information.
 
 ---
