@@ -1,2 +1,75 @@
-# PersonalHomePage
-Ruichao Tang's personal home webpage.
+# Ruichao Tang's Personal Homepage
+
+## Class Link
+This is a Web Development course assignment. And here is the course link.
+  - https://johnguerra.co/classes/webDevelopment_spring_2025/
+
+---
+## Project Objectives
+Create a page that highlights my passions, skills, experience and aspirations.
+
+---
+## Overview
+This project is a personal homepage for Ruichao Tang, showcasing his education, work experience, portfolio, and contact details. It is designed as a professional portfolio and a central hub for online presence.
+
+The webpage is built using **HTML**, **CSS**, and **JavaScript**, with **Bootstrap** for responsive styling and **Font Awesome** for icons.
+
+---
+
+## Features
+1. **Navigation Bar**
+   - Links to the homepage and a detailed project page.
+   - Responsive and accessible using Bootstrap classes.
+
+2. **Hero Section**
+   - Displays a profile picture and Ruichao Tang's name.
+   - A brief introduction to his background.
+
+3. **Contact Section**
+   - Displays email address and location.
+   - Social media links (LinkedIn, GitHub, Instagram) with Font Awesome icons.
+
+4. **About Section**
+   - Highlights Ruichao's background, interests, and hobbies.
+
+5. **Education & Work Experience**
+   - Timeline-style layout showcasing academic achievements and professional experience.
+
+6. **Portfolio Section**
+   - Cards displaying projects with images, descriptions, and interactive buttons for details and live demos.
+
+7. **Footer**
+   - Includes copyright information.
+
+---
+
+## Technologies Used
+- **HTML5**: Semantic and accessible structure.
+- **CSS3**: Custom styling and layout adjustments.
+- **JavaScript**: For interactivity like button functionality.
+- **Bootstrap 5**: Responsive design and grid system.
+- **Font Awesome**: Icons for social media and visual enhancements.
+
+---
+
+
+## How to Run the Project
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/RuichaoTang/PersonalHomePage.git
+2. install the dependencies:
+   ```bash
+   npm install
+3. start a localhost:
+   ```bash
+   http-server
+
+---
+## License
+
+This project is licensed under the MIT License. Feel free to use, modify, and share.
+
+---
+## Author
+Created by Ruichao Tang.
+For questions or suggestions, feel free to reach out via email: tangrich@outlook.com.
