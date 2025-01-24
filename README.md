@@ -9,6 +9,14 @@ This is a Web Development course assignment. And here is the course link.
 Create a page that highlights my passions, skills, experience and aspirations.
 
 ---
+## Design File
+  - https://www.figma.com/design/6wbLjJN1Z9vdMtmEkAxXCD/Untitled?node-id=0-1&t=HFtGGPCXgtyMYllB-1
+
+---
+## Slides
+  - https://docs.google.com/presentation/d/1ppcMEaA3GD0ltUhBzeW3NV8mCjfGMoZ2UY92qv2lCxc/edit?usp=sharing
+
+---
 ## Overview
 This project is a personal homepage for Ruichao Tang, showcasing his education, work experience, portfolio, and contact details. It is designed as a professional portfolio and a central hub for online presence.
 
