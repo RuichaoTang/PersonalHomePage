@@ -7,7 +7,6 @@ This is a Web Development course assignment. And here is the course link.
 ---
 ## Project Objectives
   - Create a page that highlights my passions, skills, experience and aspirations.
-  - Create a page that highlights my passions, skills, experience and aspirations
   - Practice HTML, CSS and Javascript.
   - Learn how to work with github.
   - Learn how to deploy a website
