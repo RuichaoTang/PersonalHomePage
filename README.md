@@ -91,3 +91,8 @@ This project is licensed under the MIT License. Feel free to use, modify, and sh
 ## Author
 Created by Ruichao Tang.
 For questions or suggestions, feel free to reach out via email: tangrich@outlook.com.
+
+---
+## Describe any use of GenAI
+I did not use AI to generate code for me.
+But I asked AI the definition and examples of user personas and user stories.
