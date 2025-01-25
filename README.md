@@ -20,6 +20,14 @@ This is a Web Development course assignment. And here is the course link.
   - https://docs.google.com/presentation/d/1ppcMEaA3GD0ltUhBzeW3NV8mCjfGMoZ2UY92qv2lCxc/edit?usp=sharing
 
 ---
+## Video Presentation
+  - https://raw.githubusercontent.com/RuichaoTang/PersonalHomePage/refs/heads/main/Screenshots/GMT20250124-110835_Recording_1440x900.mp4
+
+---
+## Deploy URL
+  - https://ruichaotang.github.io/PersonalHomePage/
+
+---
 ## Overview
 This project is a personal homepage for Ruichao Tang, showcasing his education, work experience, portfolio, and contact details. It is designed as a professional portfolio and a central hub for online presence.
 
