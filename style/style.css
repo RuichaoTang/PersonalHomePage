@@ -19,9 +19,14 @@ main{
     object-fit: cover;
 }
 
+
 .fab{
     font-size: 24px;
     color:grey;
+}
+
+.fab:hover{
+    color: #0078d7;
 }
 
 .info-block{
@@ -63,3 +68,32 @@ h2{
     transition-duration: 130ms;
     cursor:pointer;
   }
+
+/* --- */
+.skills-section {
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  
+  .skills-container {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  
+  .skill {
+    padding: 5px 10px;
+    background-color: #0078d7;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 0.6s ease-out;
+  }
+  
+  .skill.show {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+
