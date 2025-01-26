@@ -102,5 +102,5 @@ For questions or suggestions, feel free to reach out via email: tangrich@outlook
 
 ---
 ## Describe any use of GenAI
-1. I asked AI for the definition and examples of user personas and user stories.
-2. I also asked how to make a skill section fade in.
+1. I asked Chatgpt-o1 for the definition and examples of user personas and user stories. Prompt： How to write user personas and user stories in a design file.
+2. I also asked Chatgpt-o1 how to make a div fade in. Prompt: How to make a div fade in when entering the page.
