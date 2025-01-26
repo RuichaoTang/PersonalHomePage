@@ -102,5 +102,5 @@ For questions or suggestions, feel free to reach out via email: tangrich@outlook
 
 ---
 ## Describe any use of GenAI
-I did not use AI to generate code for me.
-But I asked AI the definition and examples of user personas and user stories.
+1. I asked AI for the definition and examples of user personas and user stories.
+2. I also asked how to make a skill section fade in.
