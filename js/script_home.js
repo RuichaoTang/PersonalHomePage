@@ -28,3 +28,22 @@ if (webpageButton) {
     window.open("https://mern-realestate-rpou.onrender.com", "_blank");
   });
 }
+
+// ---
+
+document.addEventListener("DOMContentLoaded", () => {
+  const skills = document.querySelectorAll(".skill");
+
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("show");
+        }
+      });
+    },
+    { threshold: 0.2 }
+  );
+
+  skills.forEach((skill) => observer.observe(skill));
+});
