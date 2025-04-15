@@ -1,7 +1,8 @@
 document.addEventListener("DOMContentLoaded", () => {
   const buttonSpotify = document.getElementById("spotifyButton");
   const colabButton = document.getElementById("colabButton");
-  const webpageButton = document.getElementById("webpageButton");
+  const NestLandWebButton = document.getElementById("NestLandWebButton");
+  const NestLandGitHubButton = document.getElementById("NestLandGitHubButton");
   const HomePgGitHubButton = document.getElementById("HomePgGitHubButton");
   const LiveProjectButton = document.getElementById("LiveProjectButton");
   const AppintmentHubGitHubButton = document.getElementById(
@@ -77,8 +78,13 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  if (webpageButton) {
-    webpageButton.addEventListener("click", () => {
+  if (NestLandGitHubButton) {
+    NestLandGitHubButton.addEventListener("click", () => {
+      window.open("https://github.com/RuichaoTang/MERN-realEstate", "_blank");
+    });
+  }
+  if (NestLandWebButton) {
+    NestLandWebButton.addEventListener("click", () => {
       window.open("https://mern-realestate-rpou.onrender.com", "_blank");
     });
   }
